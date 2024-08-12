@@ -9,15 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@firebase/firestore": "^4.3.0",
+    "@firebase/storage": "^0.11.2",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^1.0.6",
+    "@tailwindcss/forms": "^0.5.6",
+    "faker": "^5.5.3",
+    "firebase": "^10.5.0",
+    "next": "13.5.4",
+    "next-auth": "^4.23.2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.4"
+    "recoil": "^0.7.7",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "autoprefixer": "^10",
-    "postcss": "^8",
-    "tailwindcss": "^3",
     "eslint": "^8",
-    "eslint-config-next": "13.5.4"
+    "eslint-config-next": "13.5.4",
+    "postcss": "^8",
+    "tailwind-scrollbar": "^3.0.5",
+    "tailwindcss": "^3"
   }
 }
