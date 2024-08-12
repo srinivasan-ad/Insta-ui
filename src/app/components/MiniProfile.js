@@ -1,4 +1,4 @@
-import { signOut, useSession } from 'next-auth/react'
+import { signOut, useSession } from "next-auth/react";
 
 export default function MiniProfile() {
   const session = useSession();
@@ -14,15 +14,15 @@ export default function MiniProfile() {
             ? session.data.user.name.split(" ").join("").toLocaleLowerCase()
             : "YourName"}
         </h2>
-        <h3 className="text-sm font-semibold text-gray-500">Welcome to instagram !</h3>
+        <h3 className="text-sm font-semibold text-gray-500">
+          Welcome to instagram !
+        </h3>
       </div>
 
-      <button className='mn' onClick={
-        signOut
-
-      }  > Sign Out </button>
-
+      <button className="mn" onClick={signOut}>
+        {" "}
+        Sign Out{" "}
+      </button>
     </div>
-  )
+  );
 }
-
